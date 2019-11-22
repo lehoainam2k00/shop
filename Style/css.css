@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 2000px;
+	height: 930px;
+	border: 1px solid black;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	height: 240px;
+	border: 1px solid black;
+}
+.menu{
+	width: 100%;
+	height: 60px;
+	
+}
+.content{
+	width: 100%;
+	height: 490px;
+	border: 1px solid black;
+}
+.footer{
+	width: 100%;
+	height: 140px;
+	border: 1px solid black;
+	background-color: beige;
+  	padding-top: 50px;
+  	padding-right: 30px;
+  	padding-bottom: 50px;
+  	padding-left: 80px;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/*==Style cho menu===*/
+.menu ul {
+  background: beige;
+  list-style-type: none;
+  text-align: center;
+}
+.menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 240px;
+  height: 60px;
+  line-height: 58px;
+  margin-left: -5px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+/*==Dropdown Menu==*/
+.sub-menu {
+  display: none;
+  position: absolute;
+}
+.menu li {
+  position: relative;
+}
+.menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+/*==Menu cấp 3==*/
+.sub-menu > ul {
+  display: none !mportant;
+}
+.clear{
+  clear: both;
+}
+        .left{
+            width: 400px;
+            height: 490px;
+            border: 1px solid #000;
+            float: left;
+        }
+
+        .right{
+            width: 1580px;
+            height: 490px;
+            border: 1px solid #000;
+            float: right;
+        }
+        .Clear{
+            clear: both;
+        }
+        .itemlist ul{
+            width: 100%;
+            height: auto;
+            list-style: none;
+        }
+        .itemlist ul li{
+            margin left: 40px;
+            margin: 20px; 
+        }
+        .itemlist a{
+            text-decoration: none;
+            color: black;
+        }
+        .itemlist a:hover{
+            text-decoration: underline;
+        }
+        .allproduct ul{
+            width: 100%;
+            list-style: none;
+        }
+        .allproduct ul li{
+            width: 200px;
+            height: auto;
+            border: 1px solid black;
+            text-align: center;
+            float: left;
+            margin-left: 10px;
+        }
+        .allproduct ul li a{
+            text-decoration: none; 
+        }
